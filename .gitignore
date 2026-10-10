@@ -1,0 +1,24 @@
+# Cache local des providers et modules
+.terraform/
+
+# State : contient les IDs et attributs des ressources
+*.tfstate
+*.tfstate.*
+
+# Valeurs de variables (peuvent contenir des secrets)
+*.tfvars
+*.tfvars.json
+
+# Plans sauvegardés
+*.tfplan
+
+# Logs et fichiers de crash
+crash.log
+crash.*.log
+terraform.log
+
+# Overrides locaux
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
